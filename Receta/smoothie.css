@@ -8,18 +8,18 @@
 
 @font-face {
     font-family: smoothie;
-    src: url(../Recetas/fonts/Handlee-Regular.ttf);
+    src: url(../Receta/fonts/Handlee-Regular.ttf);
 }
 
 @font-face {
     font-family: extralight;
-    src: url(../Recetas/fonts/PlaypenSans-ExtraLight.ttf);
+    src: url(../Receta/fonts/PlaypenSans-ExtraLight.ttf);
 }
 
 * {box-sizing: border-box;
 } 
 
-body {background-image: url(../Recetas/img/background\ image\ 1.png);
+body {background-image: url(../Receta/img/background\ image\ 1.png);
     background-size: 30%;
     margin: 0;
     padding: 0;
@@ -65,7 +65,7 @@ h2 {color:rgb(221, 29, 141) ;
 
 img {margin-left: 20px;}
 
-ul {list-style-image: url(../Recetas/img/raspberry_1791310.png);}
+ul {list-style-image: url(../Receta/img/raspberry_1791310.png);}
 
 
 
