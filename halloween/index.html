@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween</title>
+    <link rel="stylesheet" href="./css/jack.css">
+    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
+    <script src="./js/jack.js"></script>
+</head>
+<body>
+    <div id="scenario">
+
+        <section id="title"> 
+            <text id="titletext">Do you dare to touch it?</text>
+            <button id="button"> I dare you ! <small>( Clink On )</small></button>
+        </section>
+
+        <!-- MOON -->
+
+        <div id="moon" onmouseover="show('hands');sound('zombiegrowl')" onmouseout="hide('hands');silence('zombiegrowl')">
+        </div>
+
+        <img id="hands" src="./img/hands.gif" alt="zombie hands">
+
+        <audio id="zombiegrowl" preload="auto">
+            <source src="./sonido/zombiesound.mp3" type="audio/mp3">
+        </audio>
+
+        <text id="moontext">Don't TOUCH the Moon...</text>
+
+        <!-- CALABAZA -->
+
+        <div id="calabaza" onmouseover="show('bat');sound('batsound')" onmouseout="hide('bat');silence('batsound')">
+        </div>
+
+        <img id="bat" src="./img/bat - copia.gif" alt="flying bats">
+
+        <audio id="batsound" preload="auto">
+            <source src="./sonido/batsound (mp3cut.net).mp3" type="audio/mp3">
+        </audio>
+
+        <text id="pumpkintext">Take this PUMPKIN !</text>
+
+        <!-- JACK -->
+
+        <div id="jack" onmouseover="show('jackmouth');sound('jacklaugh')" onmouseout="hide('jackmouth');silence('jacklaugh')">
+        </div>
+
+        <img id="jackmouth" src="./img/jack.gif" alt="jack opened mouth">
+
+        <audio id="jacklaugh" preload="auto">
+            <source src="./sonido/jacksound (mp3cut.net).mp3" type="audio/mp3">
+        </audio>
+
+        <text id="jacktext">There's something on my FACE...</text>
+
+        <text id="halloweentext">~ Happy Halloween ~</text>
+
+    </div>
+</body>
+</html>

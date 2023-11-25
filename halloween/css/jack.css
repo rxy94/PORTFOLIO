@@ -1,0 +1,203 @@
+/**********************************************************************/
+/*          Stylesheet for Jack Skellington landing page              */
+/*          Author: Ruyi Xia Ye                                       */
+/*          Version: 1.0                                              */
+/*          Date: November 2023                                       */
+/*          Comments: website page with no responsiveness             */
+/**********************************************************************/
+
+/*************************** EXTERNAL FONTS ***************************/
+@font-face {
+    font-family: title;
+    src: url(../font/HallowenInline.otf);
+}
+
+@font-face {
+    font-family: moon;
+    src: url(../font/DangerNightPersonalUse-owdl4.otf);
+}
+
+@font-face {
+    font-family: halloween;
+    src: url(../font/WitchesCrow-MVzOv.ttf);
+}
+
+/*************************** SCENARIO *********************************/
+
+*{box-sizing: border-box;}
+
+body {background-color: rgb(19, 18, 18);}
+
+#scenario {width:1400px; 
+    height: 800px;
+    background-image: url(../img/backgroundjack.jpg);
+    margin:auto;
+    position: relative;
+}
+
+#title {color: white;
+    font-family: title;
+    font-size: 3em;
+    padding: 2%;
+}
+
+#title button {color: rgb(249, 154, 13);
+    background-color: rgb(217, 209, 161);
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-family: title;
+    font-size: 0.5em;
+    font-weight: bold;
+    position: absolute;
+    top:120px;
+    left:40px;
+}
+
+#moon {width: 270px;
+    height: 270px;
+    position: absolute;
+    top:380px;
+    left:85px;
+}
+#hands {position: absolute;
+    top:200px;
+    left:340px;
+    width: 600px;
+    visibility: hidden;
+}
+
+#calabaza {width: 275px;
+    height: 240px;
+    position: absolute;
+    top:70px;
+    left:1000px;
+}
+#bat {position: absolute;
+    top: -10px;
+    left:780px;
+    width:700px ;
+    visibility: hidden;
+}
+
+#jack {width: 170px;
+    height: 185px;
+    position: absolute;
+    top:35px;
+    left: 628px;
+}
+#jackmouth {position: absolute;
+    top:-13px;
+    left:450px;
+    width: 550px;
+    visibility: hidden;
+}
+
+/***************************** TEXTS AND ANIMATIONS ********************************/
+
+#moontext{
+    color: white;
+    font-family: moon;
+    font-size: 4em;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    opacity: 0;
+    animation-name: showmoontext; 
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+@keyframes showmoontext {
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 0;}
+    75% {opacity: 1;}
+    80% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#pumpkintext{
+    color: white;
+    font-family: moon;
+    font-size: 4em;
+    position: absolute;
+    top: 400px;
+    right: 60px;
+    opacity: 0;
+    animation-name: showpumpkintext; 
+    animation-duration: 5s;
+    animation-delay: 10s;
+}
+@keyframes showpumpkintext {
+    from {right: 0px;}
+    to{right:50px}
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 0;}
+    75% {opacity: 1;}
+    80% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#jacktext {
+    color: white;
+    font-family: moon;
+    font-size: 4em;
+    position: absolute;
+    left: 80px;
+    opacity: 0;
+    animation-name: showjacktext;
+    animation-duration: 4s;
+    animation-delay: 20s;
+}
+@keyframes showjacktext {
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 0;}
+    75% {opacity: 1;}
+    80% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#halloweentext {
+    color: white;
+    font-family: halloween;
+    font-size: 5em;
+    text-shadow: 2px 2px 2px rgb(142, 7, 7);
+    position: absolute;
+    left: 280px;
+    bottom: 150px;
+    opacity: 0;
+    animation-name: showhalloweentext;
+    animation-duration: 6s;
+    animation-delay: 29s;
+}
+@keyframes showhalloweentext {
+    from {left: 0px;
+    opacity: 0;}
+    to {left:280px;
+    opacity: 1;}
+}
+
+#titletext {
+    opacity: 0;
+    animation-name: showtitletext;
+    animation-duration: 4s;
+}
+@keyframes showtitletext {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#button {
+    opacity: 0;
+    animation: showbutton;
+    animation-duration: 4s;
+}
+@keyframes showbutton {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
+
