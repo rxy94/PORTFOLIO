@@ -104,7 +104,7 @@ body {background-color: rgb(19, 18, 18);}
     opacity: 0;
     animation-name: showmoontext; 
     animation-duration: 4s;
-    animation-delay: 5s;
+    animation-delay: 8s;
 }
 @keyframes showmoontext {
     0% {opacity: 0;}
@@ -125,7 +125,7 @@ body {background-color: rgb(19, 18, 18);}
     opacity: 0;
     animation-name: showpumpkintext; 
     animation-duration: 5s;
-    animation-delay: 10s;
+    animation-delay: 16s;
 }
 @keyframes showpumpkintext {
     from {right: 0px;}
@@ -147,7 +147,7 @@ body {background-color: rgb(19, 18, 18);}
     opacity: 0;
     animation-name: showjacktext;
     animation-duration: 4s;
-    animation-delay: 20s;
+    animation-delay: 27s;
 }
 @keyframes showjacktext {
     0% {opacity: 0;}
@@ -169,7 +169,7 @@ body {background-color: rgb(19, 18, 18);}
     opacity: 0;
     animation-name: showhalloweentext;
     animation-duration: 6s;
-    animation-delay: 29s;
+    animation-delay: 36s;
 }
 @keyframes showhalloweentext {
     from {left: 0px;
@@ -181,7 +181,7 @@ body {background-color: rgb(19, 18, 18);}
 #titletext {
     opacity: 0;
     animation-name: showtitletext;
-    animation-duration: 4s;
+    animation-duration: 7s;
 }
 @keyframes showtitletext {
     from {opacity: 0;}
@@ -191,7 +191,7 @@ body {background-color: rgb(19, 18, 18);}
 #button {
     opacity: 0;
     animation: showbutton;
-    animation-duration: 4s;
+    animation-duration: 7s;
 }
 @keyframes showbutton {
     from {opacity: 0;}
